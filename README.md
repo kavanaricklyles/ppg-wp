@@ -19,6 +19,8 @@ FTP a-passphrase.php into your server at wp-content/plugins.
 
 Then login to your dashboard and select installed plugins and find Passphrase Generator with Bcrypt, select activate.
 
+We have submitted this plugin to the Wordpress Plugin repository, it will be available on there as well. We will update once it has been approved.
+
 
 ## Customization
 
