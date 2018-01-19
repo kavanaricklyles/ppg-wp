@@ -27,7 +27,7 @@ We have submitted this plugin to the Wordpress Plugin repository, it will be ava
 Adjusting the results of the passphrase generator could be done using a text editor or the wordpress plugin editor.
 If you want just words and places you can remove the $num, $numa, $numb, $numc and $char. The $chara provides the space in between the words, places, numbers and characters.
 
-You must always make sure the is a . in between each functions.
+You must always make sure there is a . in between each functions.
 
 Example:
 
