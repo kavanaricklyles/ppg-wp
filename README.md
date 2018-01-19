@@ -19,3 +19,50 @@ FTP a-passphrase.php into your server at wp-content/plugins.
 
 Then login to your dashboard and select installed plugins and find Passphrase Generator with Bcrypt, select activate.
 
+
+## Customization
+
+Adjusting the results of the passphrase generator could be sone using a text editor or the wordpress plugin editor.
+If you want just words and places you can remove the $num, $numa, $numb, $numc and $char. The $chara provides the space in between the words, places, numbers and characters.
+
+You must always make sure the is a . in between each functions.
+
+Example:
+
+return $words[array_rand($words)] . $chara . $places[array_rand($places)] . $chara . $num . $chara . $char[array_rand($char)]; }
+
+Here's an explanation of the example...
+
+return - retrieves the results
+
+SPACE
+$words[array_rand($words)] - gives a random result from the words lists
+SPACE
+.
+
+SPACE
+
+$chara - adds a space in between the generated passphrase results
+
+
+SPACE
+.
+
+SPACE
+
+And so on...
+
+
+## Compatibility
+
+This plugin has been tested with a boatload of plugins.
+
+Buudypress, bbpress, Trusona, change wp-login, 
+security questions, woocomerce and many more.
+
+If you run in to compatibility issues please let us know at https://github.com/kavanaricklyles/ppg-wp/issues
+
+## Improvements
+
+If you have any ideas on how to improve this plugin, please let us know.
+
