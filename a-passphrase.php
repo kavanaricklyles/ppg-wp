@@ -42,7 +42,7 @@ function fx_admin_notice_example_notice(){
     if( get_transient( 'fx-admin-notice-example' ) ){
         ?>
         <div class="updated notice is-dismissible">
-            <p>Thanks. Passphrase Generator with Bcrypt Encryption is now enabled! <strong>Help us out by donating to this and other plugins we are developing, </strong>.</p>
+            <p>Thanks. Passphrase Generator with Bcrypt Encryption is now enabled! <strong>Help us out by donating to this and other plugins we are developing, <a href="https://kavanaricklyles.github.io/ppg-wp/thanks.html" target="_blank">please click here</strong>.</p>
         </div>
         <?php
         /* Delete transient, only display this notice once. */
