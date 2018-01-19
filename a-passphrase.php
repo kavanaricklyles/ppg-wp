@@ -14,6 +14,42 @@
  
  /* For bugs or support please go to https://github.com/kavanaricklyles/ppg-wp/issues I will try to help as soon as I can.
  
+ /* Register activation hook. */
+register_activation_hook( __FILE__, 'fx_admin_notice_example_activation_hook' );
+ 
+/**
+ * Runs only when the plugin is activated.
+ * @since 0.1.0
+ */
+function fx_admin_notice_example_activation_hook() {
+ 
+    /* Create transient data */
+    set_transient( 'fx-admin-notice-example', true, 5 );
+}
+ 
+ 
+/* Add admin notice */
+add_action( 'admin_notices', 'fx_admin_notice_example_notice' );
+ 
+ 
+/**
+ * Admin Notice on Activation.
+ * @since 0.1.0
+ */
+function fx_admin_notice_example_notice(){
+ 
+    /* Check transient, if available display notice */
+    if( get_transient( 'fx-admin-notice-example' ) ){
+        ?>
+        <div class="updated notice is-dismissible">
+            <p>Thanks. Passphrase Generator with Bcrypt Encryption is now enabled! <strong>Help us out by donating to this and other plugins we are developing, </strong>.</p>
+        </div>
+        <?php
+        /* Delete transient, only display this notice once. */
+        delete_transient( 'fx-admin-notice-example' );
+    }
+}
+ 
  
 /* Bcrypt Encryption */
 
