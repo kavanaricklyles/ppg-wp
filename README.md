@@ -24,10 +24,10 @@ We have submitted this plugin to the Wordpress Plugin repository, it will be ava
 
 ## Customization
 
-Adjusting the results of the passphrase generator could be sone using a text editor or the wordpress plugin editor.
+Adjusting the results of the passphrase generator could be done using a text editor or the wordpress plugin editor.
 If you want just words and places you can remove the $num, $numa, $numb, $numc and $char. The $chara provides the space in between the words, places, numbers and characters.
 
-You must always make sure the is a . in between each functions.
+You must always make sure there is a . in between each functions.
 
 Example:
 
@@ -67,4 +67,8 @@ If you run in to compatibility issues please let us know at https://github.com/k
 ## Improvements
 
 If you have any ideas on how to improve this plugin, please let us know.
+
+## Donate
+
+
 
