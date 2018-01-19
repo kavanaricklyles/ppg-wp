@@ -70,5 +70,5 @@ If you have any ideas on how to improve this plugin, please let us know.
 
 ## Donate
 
-
+https://kavanaricklyles.github.io/ppg-wp/thanks.html
 
