@@ -68,3 +68,7 @@ If you run in to compatibility issues please let us know at https://github.com/k
 
 If you have any ideas on how to improve this plugin, please let us know.
 
+## Donate
+
+https://kavanaricklyles.github.io/ppg-wp/thanks.html
+
